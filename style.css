@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.gallery img {
+    width: 45%;
+    margin-bottom: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Адаптивні стилі */
+@media only screen and (max-width: 600px) {
+
+    /* Змініть ширину блоку з продуктом на мобільних пристроях */
+    .product {
+        padding: 10px;
+    }
+
+    /* Змініть розмір кнопок на мобільних пристроях */
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    /* Змініть розмір тексту в заголовках на мобільних пристроях */
+    h2 {
+        font-size: 20px;
+    }
+}
+/* соціальні */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+/* Стилі для бургерного меню */
+.menu-toggle {
+    display: none;
+    /* Початково приховуємо бургерне меню на більших екранах */
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+}
+
+.menu {
+    display: block;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Стилі для адаптивного відображення бургерного меню */
+@media only screen and (max-width: 768px) {
+    .menu {
+        display: none;
+        /* Початково приховуємо навігаційне меню на менших екранах */
+    }
+
+    .menu-toggle {
+        display: block;
+        /* Показуємо бургерне меню на менших екранах */
+        margin-top: 20px;
+    }
+
+    .menu-toggle:hover {
+        opacity: 0.7;
+    }
+}
